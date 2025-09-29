@@ -31,7 +31,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <Mail size={16} className="text-teal-600" />
-                
+                <a
                   href="mailto:info@mothertongue.co.in"
                   className="hover:text-white"
                 >
@@ -113,7 +113,7 @@ export default function Footer() {
               </p>
               <p className="text-xs text-gray-500">
                 Website by{" "}
-                
+                <a
                   href="https://www.web-developer-kp.com"
                   target="_blank"
                   rel="noopener noreferrer"
