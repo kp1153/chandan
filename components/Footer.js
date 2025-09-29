@@ -31,7 +31,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <Mail size={16} className="text-teal-600" />
-                <a
+                
                   href="mailto:info@mothertongue.co.in"
                   className="hover:text-white"
                 >
@@ -107,9 +107,22 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-gray-400">
-              © {new Date().getFullYear()} Mother Tongue. All rights reserved.
-            </p>
+            <div className="flex flex-col items-center md:items-start gap-2">
+              <p className="text-sm text-gray-400">
+                © {new Date().getFullYear()} Mother Tongue. All rights reserved.
+              </p>
+              <p className="text-xs text-gray-500">
+                Website by{" "}
+                
+                  href="https://www.web-developer-kp.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-teal-500 hover:text-teal-400 font-semibold transition-colors underline decoration-dotted"
+                >
+                  Kamta Prasad
+                </a>
+              </p>
+            </div>
             <div className="flex gap-4 text-sm">
               <Link
                 href="/privacy-policy"
